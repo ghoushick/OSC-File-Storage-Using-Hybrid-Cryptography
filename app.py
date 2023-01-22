@@ -2,6 +2,7 @@ import os
 
 from flask import Flask, flash, redirect, render_template, request, send_file
 from werkzeug.utils import secure_filename
+from markupsafe import escape
 
 import decrypter as dec
 import divider as dv
